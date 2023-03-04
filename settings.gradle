@@ -5,4 +5,5 @@ include 'lesson5.dependency.injection'
 include 'lesson6.dependency.injection.version2'
 include 'lesson8.bean.lifecycle'
 include 'lesson9.annotation'
+include 'lesson10.annotation.version2'
 
