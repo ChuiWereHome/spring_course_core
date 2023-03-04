@@ -11,14 +11,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lesson10.annotation2" />
+            <option value="$PROJECT_DIR$/lesson11.annotation3" />
+            <option value="$PROJECT_DIR$/lesson12.annotation4" />
             <option value="$PROJECT_DIR$/lesson2.beans" />
             <option value="$PROJECT_DIR$/lesson4.inversion.of.control" />
             <option value="$PROJECT_DIR$/lesson5.dependency.injection" />
-            <option value="$PROJECT_DIR$/lesson6.dependency.injection.version2" />
+            <option value="$PROJECT_DIR$/lesson6.dependency.injection2" />
             <option value="$PROJECT_DIR$/lesson8.bean.lifecycle" />
             <option value="$PROJECT_DIR$/lesson9.annotation" />
-            <option value="$PROJECT_DIR$/lesson10.annotation.version2" />
-            <option value="$PROJECT_DIR$/lesson11.annotation.qualifier" />
           </set>
         </option>
       </GradleProjectSettings>
