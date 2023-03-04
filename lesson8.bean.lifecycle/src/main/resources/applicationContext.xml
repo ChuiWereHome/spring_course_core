@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean id="popMusic"
+          class="ru.zerkalov.springcourse.music.PopMusic">
+    </bean>
+
+    <bean id="danceMusic"
+          class="ru.zerkalov.springcourse.music.DanceMusic">
+    </bean>
+
+    <bean id="tripHopMusic"
+          class="ru.zerkalov.springcourse.music.TripHopMusic"
+          factory-method="createTripHopMusic"
+          init-method="beanInit"
+          destroy-method="beanDestroy">
+    </bean>
+
+    <bean id="cdPlayer"
+          class="ru.zerkalov.springcourse.player.CdPlayer">
+        <property name="musicList">
+            <list>
+                <ref bean="popMusic"/>
+                <ref bean="danceMusic"/>
+                <ref bean="tripHopMusic"/>
+            </list>
+        </property>
+        <property name="model" value="${model}"/>
+        <property name="volume" value="${volume}"/>
+    </bean>
+
+</beans>
