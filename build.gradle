@@ -18,7 +18,7 @@ dependencies {
     implementation group: 'org.springframework', name: 'spring-beans', version: '5.3.20'
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.20'
 
-    //lombok //todo (вероятно можно удалить)
+    //lombok
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
     //starting with Gradle 5.0, the annotation processor must be connected explicitly
     annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
