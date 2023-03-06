@@ -21,7 +21,6 @@
             <option value="$PROJECT_DIR$/core.lesson6.dependency.injection2" />
             <option value="$PROJECT_DIR$/core.lesson8.bean.lifecycle" />
             <option value="$PROJECT_DIR$/core.lesson9.annotation" />
-            <option value="$PROJECT_DIR$/mvc.lesson1.basic" />
           </set>
         </option>
       </GradleProjectSettings>
