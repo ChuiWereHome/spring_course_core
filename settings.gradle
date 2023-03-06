@@ -9,3 +9,5 @@ include 'core.lesson10.annotation2'
 include 'core.lesson11.annotation3'
 include 'core.lesson12.annotation4'
 include 'core.lesson13.configuration.without.xml'
+include 'mvc.lesson1.basic'
+

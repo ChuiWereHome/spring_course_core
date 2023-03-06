@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.zerkalov.springcourse'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    //spring
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.20'
+    implementation group: 'org.springframework', name: 'spring-beans', version: '5.3.20'
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.20'
+
+    //lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    //starting with Gradle 5.0, the annotation processor must be connected explicitly
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+
+    //annotation
+    implementation group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
