@@ -11,8 +11,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/core.lesson1.base" />
-            <option value="$PROJECT_DIR$/core.lesson1.base.rejection.of.xml" />
             <option value="$PROJECT_DIR$/core.lesson10.annotation2" />
             <option value="$PROJECT_DIR$/core.lesson11.annotation3" />
             <option value="$PROJECT_DIR$/core.lesson12.annotation4" />
